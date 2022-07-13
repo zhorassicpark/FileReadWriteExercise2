@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <EditText-->
+<!--        android:id="@+id/input"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="20sp"-->
+<!--        android:ems="10"-->
+<!--        android:textSize="23sp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/write"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/input"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="20sp"-->
+<!--        android:text="Write To File"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textSize="23sp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/read"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/write"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="40sp"-->
+<!--        android:text="Read From File"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textSize="23sp" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:textSize="23sp"
+        android:hint="Text from file comes here"/>
+
+<!--    android:layout_below="@+id/read"-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/createJSON"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/text"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="40sp"-->
+<!--        android:text="create json"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textSize="23sp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/readJSON"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/createJSON"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="40sp"-->
+<!--        android:text="read json"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textSize="23sp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/json"-->
+<!--        android:layout_below="@+id/readJSON"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="20sp"-->
+<!--        android:textSize="23sp"-->
+<!--        android:hint="Text from file comes here"/>-->
+
+</RelativeLayout>

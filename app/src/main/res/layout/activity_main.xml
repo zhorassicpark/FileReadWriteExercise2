@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inputid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="User Name"
+        android:textSize="23sp" />
+
+    <EditText
+        android:id="@+id/inputpw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="PassWord"
+        android:textSize="23sp" />
+
+<!--    <Button-->
+<!--        android:id="@+id/write"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/input"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="20sp"-->
+<!--        android:text="Write To File"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textSize="23sp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/read"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/write"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="40sp"-->
+<!--        android:text="Read From File"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textSize="23sp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/text"-->
+<!--        android:layout_below="@+id/inputPw"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="20sp"-->
+<!--        android:textSize="23sp"-->
+<!--        android:hint="Text from file comes here"/>-->
+
+    <Button
+        android:id="@+id/btnsignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputpw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnsignin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/errmsg"
+        android:layout_below="@+id/btnlogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:textSize="23sp"
+        android:hint=""/>
+
+</RelativeLayout>
